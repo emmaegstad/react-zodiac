@@ -5,9 +5,9 @@ import { zodiac } from '../../data'
 
 export default function Main() {
   return (
-    <main>
+    <main className="Main">
       {zodiac.map((element) => {
-        return <ZodiacCard className=".card" key="name" {...element} />
+        return <ZodiacCard key="name" {...element} />
       })}
     </main>
   )
