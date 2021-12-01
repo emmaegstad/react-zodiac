@@ -3,23 +3,24 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  height: 200px;
-  width: 200px;
-  padding: 25px;
+  height: 15vh;
+  width: 15vh;
+  padding: 1.2vh;
   margin: 0;
+  font-size: 1.2vh;
   border-radius: 10%;
   background-color: rgba(37, 130, 218, 1);
-  filter: drop-shadow(3px 3px 12px black);
+  filter: drop-shadow(3px 3px 12px #462255);
 }
 
 .card:hover {
   transform: scale(1.05);
-  filter: drop-shadow(6px 6px 15px black);
+  filter: drop-shadow(6px 6px 15px #462255);
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  height: 8.5vh;
+  width: 8.5vh;
   border-radius: 50%;
   border: 5px solid black;
   mix-blend-mode: screen;

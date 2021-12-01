@@ -2,8 +2,8 @@ main {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 25px;
-  margin: 3vh 0 3vh 0;
+  grid-gap: 4vw;
+  margin: 4vh 0 4vh 0;
   margin-bottom: 50px;
   color: white;
 }
